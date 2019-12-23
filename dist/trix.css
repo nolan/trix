@@ -60,6 +60,9 @@ trix-toolbar .trix-button {
     trix-toolbar .trix-button {
       letter-spacing: -0.01em;
       padding: 0 0.3em; } }
+trix-toolbar .trix-button--text {
+  font-size: 1em;
+  width: 2.6em; }
 trix-toolbar .trix-button--icon {
   font-size: inherit;
   width: 2.6em;
