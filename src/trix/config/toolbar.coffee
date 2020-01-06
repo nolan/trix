@@ -23,7 +23,7 @@ Trix.config.toolbar =
       </span>
 
       <span class="trix-button-group trix-button-group--file-tools" data-trix-button-group="file-tools">
-        <button type="button" class="trix-button trix-button--icon trix-button--icon-attach" data-trix-action="attachFiles" title="#{lang.attachFiles}" tabindex="-1">#{lang.attachFiles}</button>
+        <button type="button" class="trix-button trix-button--text" data-trix-action="attachFiles" title="#{lang.attachFiles}" tabindex="-1"><i class="fa fa-picture-o"></i></button>
       </span>
 
       <span class="trix-button-group-spacer"></span>

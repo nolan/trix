@@ -8,7 +8,7 @@ Trix.config.input =
       0
 
   pickFiles: (callback) ->
-    input = Trix.makeElement("input", type: "file", multiple: true, hidden: true, id: @fileInputId, accept="image/*")
+    input = Trix.makeElement("input", type: "file", multiple: true, hidden: true, id: @fileInputId, accept: "image/*")
 
     input.addEventListener "change", ->
       callback(input.files)
